@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+}
